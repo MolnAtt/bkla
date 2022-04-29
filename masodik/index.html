@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<!-- CSS: Cascading Style Sheets: hierarchikusan elrendezett stíluslapok -->
+    <!-- Ez az EMBEDDED CSS = beágyazott CSS -->
+    <style> 
+        strong {
+            font-size: 14em;
+            font-style: italic;
+            font-weight: 100;
+        }
+    </style>
+
+    <link rel="stylesheet" href="style.css"> <!-- ez tölti be a css-t külső fájlból! Valójában az esetek 99,99%-ban ezt használjuk! -->
+</head>
+<body>
+    <p>
+        Ez itt a <strong>fontos</strong>.
+    </p>
+
+    <p>Ez is fontos itt <strong>Hahó</strong> </p>
+
+    <p>Ez itt most félkövéren fontos: <strong style="color:red;">EZ</strong></p> <!-- ez az inline CSS -- nem fogjuk szeretni! -->
+
+    <p>Ez most egy emes kiemelés: <em>hali</em></p>
+
+    <p>Ez egy saját formázás lesz <span class="sajat">itt</span>. </p>
+</body>
+</html>

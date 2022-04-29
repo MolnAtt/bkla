@@ -1,0 +1,8 @@
+em {
+    font-weight: bold;
+    color:cornflowerblue; /* búzavirágkék, a komment ugyanúgy megy, mint C#-ban */
+}
+
+.sajat{
+    font-weight: bold;
+}
