@@ -1,0 +1,53 @@
+p{
+    letter-spacing:3px;
+    word-spacing: 10px;
+    white-space:pre-wrap; /* jelenjen meg a fehér térköz */
+}
+
+.egyes{
+    width:20em;
+    margin:0 auto 0 auto; /* érettségin így szokták, mi már modernebbet tanulunk majd*/
+    background-color: aqua;
+}
+
+.kettes{
+    width: 20%;
+    height: 100px;
+    padding: 10px;
+    /* border: 2px black solid; */
+    /* border-style: dashed;
+    border-color: red;
+    border-width: 5px;*/
+    border: dashed red 5px;
+    margin:3em;
+    background-image: url("http://szlgbp.hu/img/gomb2_2.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed; /*óvatosa, mert zavaró! Ügyesen kell vele bánni.*/
+}
+
+
+.grid-container{
+    height:500px;
+    display:grid;
+    grid-template-columns: 50px 50px 100px 50px 50px 50px 100px 50px;
+    grid-auto-rows: 100px;
+    gap:5px;
+    justify-content: center; /* a grid mindenképp kitölti az egész VÍZSZINTESEN, de ezzel a térrel mit kezdjen!*/
+    justify-items: stretch; /* A CELLÁKON BELÜL mi legyen*/
+    align-content: center;/* a grid rendelkezésére álló helyen FÜGGŐLEGESEN hova kerüljön*/
+    align-items: stretch; /* ez most nem csinál semmit, mert mindegyik sor ugyanolyan hosszú!*/
+}
+
+.grid-item{
+    border: solid blue 3px;
+    display:grid; /*overkill*/
+    align-content: center;
+    justify-content: center;
+}
+
+.kivetel{
+    justify-self: center; /*kivételekhez!*/
+}
+.dupla{
+    grid-column: span 2; /*Így lehet elérni azt, hogy a dupla classba tartozó cellák kétszerannyi helyet foglaljanak*/
+}

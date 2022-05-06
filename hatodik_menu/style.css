@@ -1,0 +1,16 @@
+header{
+    text-align:center;
+    font-size: 25pt;
+    padding: 10px;
+}
+
+nav{
+    padding-top:20px;
+    display:grid;
+    grid-template-columns: repeat(5,5%);
+    
+}
+
+.cella{
+    text-align: center;
+}
