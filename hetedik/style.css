@@ -1,0 +1,27 @@
+.grid-container{
+    display:grid;
+    grid-template-columns: 50px 100px 100px 100px 100px 100px;
+    grid-template-rows: 50px repeat(8,100px);
+    grid-auto-flow: column;
+    gap:2px;
+    justify-content: center;
+}
+
+.grid-item{
+    display:grid;
+    border: solid black 2px;    
+    font-family: Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.nyf{
+    background-color:blue;
+    color:azure;
+    font-weight: bold;
+}
+
+.grid-item:hover{
+    background-color:cadetblue;
+}
