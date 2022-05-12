@@ -1,0 +1,35 @@
+table tr td {
+    border: solid black 1px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+table{
+    border-spacing: 0px;
+    border: solid black 1px;
+}
+
+.ures{
+    background-color:gray;
+}
+
+.ures:hover{
+    background-color:lightgray;
+}
+
+.egyes{
+    color:blue;
+}
+
+.kettes{
+    color:green;
+}
+
+.harmas{
+    color:red;
+}
+
+table tr td img{
+    width:30px;
+}
