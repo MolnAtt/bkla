@@ -1,0 +1,21 @@
+main{
+    display:grid;
+    grid-template-columns: repeat(9,30px);
+    grid-template-rows: repeat(9,30px);    
+    border: solid black 1px;
+}
+
+main div{
+    border: solid black 1px;
+    display:grid;
+    justify-content: center;
+    align-content: center;
+}
+
+body{
+    display:grid;
+    justify-content: center;
+}
+
+
+
