@@ -1,0 +1,24 @@
+ul{
+    list-style-image: url(zaszlo.png);
+}
+
+a:active{
+    color:green;
+}
+
+a:visited{
+    color:pink;
+}
+
+a:hover{
+    color:cadetblue;
+}
+
+a:link{
+    color:blanchedalmond;
+}
+
+a{
+    text-decoration: none;
+    cursor:help;
+}
