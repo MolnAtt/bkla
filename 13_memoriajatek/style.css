@@ -1,0 +1,25 @@
+#racs{
+    /* border: solid black 2px; */
+    display: grid;
+    grid-template-columns: repeat(6, 30px);
+    grid-template-rows: repeat(6, 30px);
+    gap:10px;
+    justify-content: center;
+}
+
+#racs>div{
+    width: 30px;
+    height: 30px;
+    /*
+    */
+    border: solid black 2px;
+
+    /* border-radius: 50%; */
+    border-radius: 5px;
+
+    box-shadow: 3px 3px rgba(128, 128, 128, 0.563) ;
+}
+
+header{
+    text-align:center;
+}
