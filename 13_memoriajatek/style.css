@@ -16,10 +16,26 @@
 
     /* border-radius: 50%; */
     border-radius: 5px;
-
-    box-shadow: 3px 3px rgba(128, 128, 128, 0.563) ;
+    box-shadow: 3px 3px rgba(128, 128, 128, 0.421) ;
+    transition: .3s;
 }
 
 header{
     text-align:center;
 }
+
+#racs>div:hover{
+    background-color: aquamarine;
+    transition: .3s;
+}
+
+#racs>div:active{
+    justify-self: center;
+    background-color:forestgreen;
+    width:0;
+    transition: .3s;
+}
+
+
+
+
