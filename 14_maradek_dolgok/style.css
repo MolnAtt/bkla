@@ -1,0 +1,25 @@
+main{
+    display:grid;
+    justify-content: center;
+    grid-template-columns: 30%;
+    font-size: 25pt;
+}
+
+main div{
+    border: 2pt black solid;
+    padding: 5px;
+}
+
+main img{
+    float:right;
+}
+
+#marci{
+    position:fixed;
+    bottom:2cm;
+}
+
+#mate{
+    position:sticky;
+    top:2cm;
+}
