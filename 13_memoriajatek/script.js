@@ -24,24 +24,16 @@ for (let i = 0; i < s.length; i++) {
 function felfordit(e) // e mint event
 {
     let lapka = e.target;
-    let i = hanyadik(lapka.parentElement);
+    let i = hanyadik(lapka, lapka.parentElement);
     lapka.classList.toggle('lathatatlan');
 }
 
-function hanyadik(div){
+function hanyadik(gyerek, szulo){
     let i = 0;
-    while(divlista[i]!=div){
+    while(szulo.children[i]!=gyerek){
         i++;
     }
     return i;
-}
-
-function hanyadik2(div){
-    for (let i = 0; i < divlista.length; i++) {
-        if( divlista[i] == div){
-            return i;
-        }        
-    }
 }
 
 function veletlen(mettol,meddig){
