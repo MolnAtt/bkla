@@ -38,7 +38,7 @@ function hanyadik(gyerek, szulo){
 
 function veletlen(mettol,meddig){
     let oldalszam = meddig-mettol+1; // képzeletbeli dobókocka oldalszáma!
-    return Math.floor(Math.random()*oldalszam);
+    return mettol+Math.floor(Math.random()*oldalszam);
 }
 
 function keveres(lista){
