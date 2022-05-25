@@ -9,8 +9,8 @@
 
 #racs>div{
     display:grid; /* minden cella legyen grid, hogy lehessen benne szépen középre igazítani. */
-    justify-content: stretch; /* vízszintesen középre*/
-    align-content: stretch; /*függőlegesen középre*/
+    justify-content: center; /* vízszintesen középre*/
+    align-content: center; /*függőlegesen középre*/
     width: 30px;
     height: 30px;
     /*
